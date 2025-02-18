@@ -10,4 +10,8 @@ public class Circle implements Shape {
     public double getArea() {
         return Math.PI * radius * radius;
     }
+    public void draw() {
+        System.out.println("Drawing a Circle with radius " + radius);
+        System.out.println("Its area is " + getArea());
+    }
 }
